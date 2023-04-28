@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #afb1b5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -58,4 +58,10 @@
   color: black;
   overflow: scroll;
   height: 500px;
+}
+
+.withborders * {
+  border-color: black;
+  border-style: solid;
+  border-radius: 0.1px;
 }
