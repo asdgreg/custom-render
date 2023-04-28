@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.splitintwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.website{
+  float: left;
+  width: 100%;
+  overflow: scroll;
+  height: 100%;
+}
+
+.jsontext {
+  float: left;
+  /* width: 50%; */
+  font-size: 10px;
+  text-align: left;
+  background-color: white;
+  color: black;
+  overflow: scroll;
+  height: 500px;
+}

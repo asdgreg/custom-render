@@ -1,16 +1,13 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import HtmlTree from './components/htmltree'
+
+import ShowJSON from './components/ShowJSON'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          WELCOME TO THE JUNGLE
-        </p>
-        <HtmlTree/>
+          <ShowJSON/>
       </header>
     </div>
   );
